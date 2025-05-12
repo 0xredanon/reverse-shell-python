@@ -1,18 +1,16 @@
-# Reverse Shell
+# Reverse Shell Python
 
 ## Description
-This is a simple reverse shell implementation in Python. It demonstrates how a client can connect to a server and execute commands remotely. This project is for educational purposes only and should not be used for any malicious activity.
-
-The server listens for incoming connections from the client and executes commands sent by the server. The client connects to the server and executes commands remotely, sending back the results.
+This is a simple reverse shell implementation in Python. It demonstrates how a client can connect to a server and execute commands remotely. 
 
 ## Features
-- Bidirectional communication between client and server.
-- Supports execution of shell commands.
-- Simple to set up and run.
+- Client connects to the server and waits for commands.
+- Server sends commands to the client and receives output.
+- Basic authentication and encryption (optional).
 
 ## Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0xredanon/reverse-shell.git
-   cd reverse-shell
+   git clone https://github.com/0xredanon/reverse-shell-python.git
+   cd reverse-shell-python
